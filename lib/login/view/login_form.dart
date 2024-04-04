@@ -42,6 +42,8 @@ class LoginForm extends StatelessWidget {
               _GoogleLoginButton(),
               const SizedBox(height: 4),
               _SignUpButton(),
+              const SizedBox(height: 4),
+              _RecuperarSenha(),
             ],
           ),
         ),
@@ -155,4 +157,22 @@ class _SignUpButton extends StatelessWidget {
       ),
     );
   }
+}
+
+
+class _RecuperarSenha extends StatelessWidget {
+  const _RecuperarSenha({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return ElevatedButton(
+      onPressed: () => EventButton(),
+      child: Text('Recuperar senha'),
+    );
+  }
+}
+
+class EventButton {
+  
 }
