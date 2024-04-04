@@ -1,6 +1,9 @@
+import 'dart:math';
+
 import 'package:appbloc/bloc/user_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+//import 'package:provider/src/provider.dart';
 
 // Testando git
 
@@ -29,18 +32,31 @@ class MyApp extends StatelessWidget {
             builder: (context, state) {
 
               if(state is UserInitial){
+                Future.delayed(Duration(seconds: 3)).then((value){
+                  context.read<UserBloc>().add(UserLogin('1', 'Ruan'));
+                });
+                return const Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
+
+              /*
+              
+              if(state is UserInitial){
                 return Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Text('Usuário não logado!'),
                     const SizedBox(height: 16,),
                     ElevatedButton(
-                      onPressed: () => context.read()<UserBloc>().add(UserLogin('1', 'Ruan')),
+                      onPressed: () => context.read<UserBloc>().add(UserLogin('1', 'Ruan')),
                       child: const Text('Fazer login'),
                     ),
                   ],
                 );
               }
+
+              */
 
               if(state is UserLoogedIn) {
                 return Column(
@@ -51,8 +67,12 @@ class MyApp extends StatelessWidget {
                     Text('Nome: ${state.userName}', style: const TextStyle(fontSize: 30, color: Colors.green),),
                     const SizedBox(height: 32,),
                     ElevatedButton(
-                      onPressed: () => context.read<UserBloc>().add(UserLogin('1', 'Marcos'),),
-                      child: Text('Mudar valor'),
+                      onPressed: () {
+                        var rng = Random();
+                        var maxnumber = 400;
+                        context.read<UserBloc>().add(UserLogin(rng.nextInt(maxnumber).toString(), 'Marcos'),);
+                      },
+                      child: const Text('Mudar valor'),
                     ),
                   ],
                 );
