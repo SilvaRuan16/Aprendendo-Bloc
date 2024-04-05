@@ -5,10 +5,17 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
+<<<<<<< HEAD
 PRODUCT_NAME = flutter_firebase_login
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterFirebaseLogin
+=======
+PRODUCT_NAME = appbloc
+
+// The application's bundle identifier
+PRODUCT_BUNDLE_IDENTIFIER = com.example.appbloc
+>>>>>>> 699d54da8d259836acfbecf7c2d855b9294070cf
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2024 com.example. All rights reserved.

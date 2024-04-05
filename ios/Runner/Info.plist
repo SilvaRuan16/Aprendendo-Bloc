@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Flutter Firebase Login</string>
+=======
+	<string>Appbloc</string>
+>>>>>>> 699d54da8d259836acfbecf7c2d855b9294070cf
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,13 +17,18 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>flutter_firebase_login</string>
+=======
+	<string>appbloc</string>
+>>>>>>> 699d54da8d259836acfbecf7c2d855b9294070cf
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+<<<<<<< HEAD
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -31,6 +40,8 @@
 			</array>
 		</dict>
 	</array>
+=======
+>>>>>>> 699d54da8d259836acfbecf7c2d855b9294070cf
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -52,8 +63,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+<<<<<<< HEAD
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+=======
+>>>>>>> 699d54da8d259836acfbecf7c2d855b9294070cf
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>

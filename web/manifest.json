@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "flutter_firebase_login",
     "short_name": "flutter_firebase_login",
+=======
+    "name": "appbloc",
+    "short_name": "appbloc",
+>>>>>>> 699d54da8d259836acfbecf7c2d855b9294070cf
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

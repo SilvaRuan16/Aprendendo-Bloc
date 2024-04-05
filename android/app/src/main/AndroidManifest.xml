@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="flutter_firebase_login"
+=======
+        android:label="appbloc"
+>>>>>>> 699d54da8d259836acfbecf7c2d855b9294070cf
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
